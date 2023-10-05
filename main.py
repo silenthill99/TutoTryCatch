@@ -3,7 +3,7 @@ import json
 
 class FileNotJsonFormatError(Exception):
     def __init__(self):
-        self.message = "Veuillez faqire attention au format"
+        self.message = "Veuillez faire attention au format"
 
 
 def read_json_file(file_name):
